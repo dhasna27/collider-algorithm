@@ -1,4 +1,4 @@
-var fixedRect, movingRect,box1;
+var fixedRect, movingRect,box1,box2;
 
 function setup() {
   createCanvas(1200,800);
@@ -10,6 +10,7 @@ function setup() {
   movingRect.debug = true;
  box1 =createSprite(200,100,80,100);
  box1.shapeColor ="yellow"
+ box2 =createSprite(200,300,50,20)
 
 }
 
